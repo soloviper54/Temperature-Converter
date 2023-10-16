@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Temperature Converter</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+    }
+    input {
+      width: 100px;
+    }
+    button {
+      background-color: blue;
+      color: white;
+      border: none;
+      padding: 10px;
+    }
+    .result {
+      font-size: 16px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <p>Enter a temperature in Celsius:</p>
+  <input id="celsius" type="number" />
+  <button onclick="convert()">Convert</button>
+  <p class="result"></p>
+</body>
+</html>
